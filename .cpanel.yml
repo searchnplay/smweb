@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/smapidev/public_html/developmentgithub
+    - /bin/cp -r * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
