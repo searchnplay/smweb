@@ -1,6 +1,5 @@
 ---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/smapidev/public_html/developmentgithub
-    - /bin/cp -r * $DEPLOYPATH
-    - /bin/cp * $DEPLOYPATH
+  branch: main  # Specify the branch you are deploying from (adjust if necessary)
+  username: searchnplay  # Your cPanel username
+  app_directory: /home/smapidev/public_html/developmentgithub  # Path where the app will be deployed
